@@ -1,0 +1,78 @@
+.olwooaw-admin-wishlist {
+    padding: 20px;
+}
+
+.olwooaw-wishlist-items {
+    list-style: none;
+    padding: 0;
+}
+
+.olwooaw-wishlist-items li {
+    margin-bottom: 10px;
+}
+
+.olwooaw-pagination a {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.olwooaw-pagination a.active {
+    font-weight: bold;
+}
+.is_in_stock.column-is_in_stock {
+    font-size: 0.89rem;
+}
+.is_in_stock.column-is_in_stock .instock {
+    color: #7ad03a;
+    font-weight: 700;
+}
+.is_in_stock.column-is_in_stock .outofstock {
+    color: #a44;
+    font-weight: 700;
+}
+table.wp-list-table .column-thumb {
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+table.wp-list-table .column-price {
+    width: 12ch;
+}
+table.wp-list-table .column-is_in_stock {
+    text-align: left !important;
+    width: 12ch;
+}
+table.wp-list-table td.column-thumb img {
+    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: middle;
+}
+.delete-button {
+    background-color: #dc3545; /* Red color, you can change this */
+    color: #fff; /* Text color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Adjust padding as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+  .o-float-to-right {
+    float: right!important;
+  }
+  .o-text-align-center {
+    text-align: center!important;
+  }
+  .o-button-link {
+    text-decoration: none;
+    font-size: 14px !important;
+    font-weight: 600;
+  }
+  .o-button-link:active, .o-button-link:hover {
+    color: #135e96;
+  }
